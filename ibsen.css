@@ -17,25 +17,38 @@
   }
   
   .HILDA {
-    color:rgb(84, 228, 17);
+    color:blue;
   }
   
   .SOLNESS {
-    color:rgb(244, 82, 8);
+    color:fuchsia;
   }
   
-  .MRS_SOLNESS {
-    color:rgb(21, 4, 77);
+  .MRSSOLNESS {
+    color:brown;
   }
-
+  .HILDA:hover {
+    text-shadow:2px 2px 4px #FF5733; 
+    border: 2px solid #FF5733;
+    cursor: pointer; 
+  }
+  .SOLNESS:hover {
+    text-shadow:2px 2px 4px chartreuse; 
+    border:2px solid rgb(128, 204, 240);
+    cursor: pointer; 
+  }
+  .MRSSOLNESS:hover {
+    text-shadow:2px 2px 4px fuchsia; 
+    border:2px solid lawngreen;
+    cursor: pointer; 
+  }
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     margin-bottom: 24px;
-
-
 }
+
 
 th, td {
     border: 3px solid #10e71e;
@@ -52,18 +65,6 @@ tr:nth-child(even) {
     background-color:burlywood;
   }
 
-.HILDA:hover {
-    text-shadow:2px 2px 4px #FF5733; 
-    border: 2px solid #FF5733;
-    cursor: pointer; 
-}
-.SOLNESS:hover {
-    text-shadow:2px 2px 4px chartreuse; 
-    border:2px solid rgb(128, 204, 240);
-    cursor: pointer; 
-}
-.MRS_SOLNESS:hover {
-    text-shadow:2px 2px 4px fuchsia; 
-    border:2px solid lawngreen;
-    cursor: pointer; 
+.navigation{
+  display: flex;
 }
