@@ -31,16 +31,19 @@
     text-shadow:2px 2px 4px #FF5733; 
     border: 2px solid #FF5733;
     cursor: pointer; 
+    filter: blur(1px);
   }
   .SOLNESS:hover {
     text-shadow:2px 2px 4px chartreuse; 
     border:2px solid rgb(128, 204, 240);
     cursor: pointer; 
+    filter: blur(1px);
   }
   .MRSSOLNESS:hover {
     text-shadow:2px 2px 4px fuchsia; 
     border:2px solid lawngreen;
     cursor: pointer; 
+    filter: blur(1px);
   }
 table {
     width: 100%;
