@@ -24,7 +24,7 @@
     color:rgb(244, 82, 8);
   }
   
-  .MRS.SOLNESS {
+  .MRS_SOLNESS {
     color:rgb(21, 4, 77);
   }
 
@@ -62,7 +62,7 @@ tr:nth-child(even) {
     border:2px solid rgb(128, 204, 240);
     cursor: pointer; 
 }
-.MRS.SOLNESS:hover {
+.MRS_SOLNESS:hover {
     text-shadow:2px 2px 4px fuchsia; 
     border:2px solid lawngreen;
     cursor: pointer; 
